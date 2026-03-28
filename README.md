@@ -10,6 +10,21 @@ privkey = SHA256( ecdsa_signature + nonce )
 
 The server sees the ECDSA signature (inherent to LNURL-auth). The browser generates a random nonce the server never sees. Neither piece alone can derive the private key.
 
+## Install
+
+```bash
+npm install github:Antisys/splitsig
+```
+
+```javascript
+import { generateNonce, deriveKey, verify } from '@antisys/splitsig';
+
+const nonce = generateNonce();
+const key = deriveKey(signature, nonce);
+// key.privateKey     — stays in browser
+// key.publicKeyXOnly — send to server
+```
+
 ## Demo
 
 [Watch the full flow (video)](demo.mp4)

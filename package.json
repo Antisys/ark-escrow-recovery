@@ -1,5 +1,8 @@
 {
-  "name": "splitsig",
+  "name": "@antisys/splitsig",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "version": "0.1.0",
   "description": "Non-custodial key derivation from LNURL-auth signatures",
   "type": "module",
