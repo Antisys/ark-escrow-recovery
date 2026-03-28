@@ -77,6 +77,8 @@ Security Properties
 
 ### Knowledge Distribution
 
+The recovery kit is a file the user downloads containing the nonce and context parameters. It is the user's backup — equivalent to writing down a seed phrase.
+
 | Piece             | Server  | Client  | Recovery Kit |
 |-------------------|---------|---------|--------------|
 | ECDSA signature   | **yes** | yes     | no           |
