@@ -86,3 +86,10 @@ See [PROTOCOL.md](PROTOCOL.md) for the full specification.
 ## License
 
 GPL-3.0
+
+## Documentation
+
+- [PROTOCOL.md](PROTOCOL.md) — full protocol specification
+- [RECOVERY-KIT.md](RECOVERY-KIT.md) — recovery kit format and key re-derivation
+- [test-vectors.md](test-vectors.md) — test vectors for implementors
+- [NIP proposal](https://github.com/nostr-protocol/nips/pull/2294) — Nostr integration
